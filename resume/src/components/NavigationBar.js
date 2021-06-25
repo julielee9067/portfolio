@@ -6,13 +6,13 @@ import { motion } from 'framer-motion';
 const NavigationBar = () => {
     return (
         <Stack direction={'column'}>
-            <HStack justify='space-between' pt='20px' pl='20px'>
+            <HStack justify='space-between' pt='20px' pl='10px'>
                 <HStack>
                     <Link to='/'>
                         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                             <Text className='navbar-logo' _hover={{bgGradient: "linear(to-r, yellow.500, green.500)",}} bgClip="text" bgGradient="linear(to-l, #7928CA,#FF0080)" fontSize={24}>
                                 JULIE
-                                </Text>
+                            </Text>
                         </motion.button>
                     </Link>
                     <Link to='/Stacks'>

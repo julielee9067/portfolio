@@ -6,9 +6,10 @@ import { motion } from 'framer-motion';
 const Main = () => {    
     return (
         <Stack textAlign='left' pt={60} pl={10}>
+            <Typing.Reset delay={500}/>
             <Typing loop="true">
                 <Text fontFamily='Roboto Mono' fontSize={50}>
-                    HELLO 💻
+                    HELLO 🖥
                 </Text>
                 <Text fontFamily='Roboto Mono' fontSize={50}>
                     I AM
