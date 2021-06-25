@@ -22,17 +22,10 @@ const NavigationBar = () => {
                             </Text>
                         </motion.button>
                     </Link>
-                    <Link to='/Expriences'>
+                    <Link to='/Experiences'>
                         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                             <Text fontFamily='Roboto Mono' ml={3} fontSize={20}>
                                 EXPERIENCES
-                            </Text>
-                        </motion.button>
-                    </Link>
-                    <Link to='/Education'>
-                        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                            <Text fontFamily='Roboto Mono' ml={3} fontSize={20}>
-                                EDUCATION
                             </Text>
                         </motion.button>
                     </Link>
@@ -40,6 +33,13 @@ const NavigationBar = () => {
                         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                             <Text fontFamily='Roboto Mono' ml={3} fontSize={20}>
                                 PROJECTS
+                            </Text>
+                        </motion.button>
+                    </Link>
+                    <Link to='/Education'>
+                        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+                            <Text fontFamily='Roboto Mono' ml={3} fontSize={20}>
+                                EDUCATION
                             </Text>
                         </motion.button>
                     </Link>
