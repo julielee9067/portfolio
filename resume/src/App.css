@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Raleway&family=Source+Sans+Pro&family=Roboto&family=Roboto+Mono&family=Roboto+Condensed&display=swap");
+@import url("https://use.fontawesome.com/d0c316cf02.js");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+
+.navbar-logo {
+  font-family: "Roboto Mono";
+  /* make text non-selectable */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.navbar-column {
+  font-family: Roboto;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
 .App {
   text-align: center;
 }

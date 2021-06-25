@@ -1,6 +1,7 @@
 import './App.css';
 import Button from '@material-ui/core/Button'
 import { styled } from '@material-ui/core/styles'
+import NavigationBar from './components/NavigationBar';
 
 
 const MyButton = styled(Button)({
@@ -15,9 +16,9 @@ const MyButton = styled(Button)({
 
 function App() {
   return (
-    <MyButton>
-      Hello World
-    </MyButton>
+    <div className='App'>
+      <NavigationBar/>
+    </div>
   );
 }
 
